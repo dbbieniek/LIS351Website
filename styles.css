@@ -49,7 +49,8 @@ a:hover { text-decoration: underline; }
   color: #55BEC4;
 }
 
-.site-nav a {
+.site-nav a,
+.footer-nav a {
   margin-left: 18px;
   text-transform: uppercase;
   font-size: 15px;
@@ -175,6 +176,19 @@ a:hover { text-decoration: underline; }
   display: grid;
   place-items: center;
 }
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+  margin-top: 30px;
+}
+
+.course-card {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
 
 /* ===== SECONDARY ===== */
 
@@ -182,8 +196,11 @@ a:hover { text-decoration: underline; }
   padding: 34px 0 44px;
 }
 
-.secondary-grid {
-  display: flex;
+
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 26px;
 }
 
@@ -267,24 +284,11 @@ a:hover { text-decoration: underline; }
   color: #666;
   margin: 6px 0;
 }
-/* ===== COURSE GRID 2x2 ===== */
-.course-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 26px;
-  margin-top: 30px;
+
+html {
+  scroll-behavior: smooth;
 }
 
-.course-card {
-  background: #fff;
-  border: 1px solid #eee;
-  padding: 20px;
-  text-align: center;
-}
-
-/* ===== 6 CHARACTER LAYOUT FIX ===== */
-.secondary-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 26px;
+#home {
+  scroll-margin-top: 430px;
 }
