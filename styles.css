@@ -42,7 +42,7 @@ a:hover { text-decoration: underline; }
 
 .brand {
   font-size: 28px;
-  font-weight: 700;
+  font-weight: bold ;
 }
 
 .brand .dot {
@@ -52,9 +52,9 @@ a:hover { text-decoration: underline; }
 .site-nav a {
   margin-left: 18px;
   text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  color: #444;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
 }
 
 /* ===== HERO ===== */
@@ -62,7 +62,7 @@ a:hover { text-decoration: underline; }
 .hero {
   background:
     linear-gradient(rgba(253,245,223,0.85), rgba(253,245,223,0.85)),
-    url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=60");
+    url(images/Neo_Background.jpg);
 
   background-size: cover;
   background-position: center;
@@ -87,6 +87,7 @@ a:hover { text-decoration: underline; }
   margin: 6px 0 22px;
   font-size: 22px;
   color: #555;
+  font-weight: bold;
 }
 
 /* ===== BUTTONS ===== */
@@ -217,14 +218,6 @@ a:hover { text-decoration: underline; }
   background-position: center;
 }
 
-.img-a {
-  background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=60");
-}
-
-.img-b {
-  background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=60");
-}
-
 
 .controls {
   background: #fff;
@@ -239,7 +232,7 @@ a:hover { text-decoration: underline; }
 /* ===== FOOTER ===== */
 
 .site-footer {
-  background: #fafafa;
+  background: (253,245,223);
   border-top: 1px solid #eee;
   padding: 24px 0;
 }
